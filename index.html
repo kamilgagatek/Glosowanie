@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Głosowanie</title>
+    <link rel="stylesheet" href="./styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="top">
+        <h1>Wybierz swojego kandydata</h1>
+    </div>
+    <div id="main">
+        <div id="m1">
+            <div class="column" onclick="kandydat1()">
+                <p>Jan Kowalski</p>
+                <img src="./osoba1.jpg" alt="osoba" class="zdjecie">
+            </div>
+            <div class="column" onclick="kandydat2()">
+                <p>Marek Ptak</p>
+                <img src="./osoba2.jpg" alt="osoba" class="zdjecie">
+            </div>
+            <div class="column" onclick="kandydat3()">
+                <p>Kazimierz Baran</p>
+                <img src="./osoba3.jpg" alt="osoba" class="zdjecie">
+            </div>
+            <div class="column" onclick="kandydat4()">
+                <p>Agnieszka Hebda</p>
+                <img src="./osoba4.jpg" alt="osoba" class="zdjecie">
+            </div>
+        </div>
+        <div id="m2">
+            <div id="wykres">
+                <div id="slupek1" class="slupek"><p id="wynik1"></p></div>
+                <div id="slupek2" class="slupek"><p id="wynik2"></p></div>
+                <div id="slupek3" class="slupek"><p id="wynik3"></p></div>
+                <div id="slupek4" class="slupek"><p id="wynik4"></p></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>
