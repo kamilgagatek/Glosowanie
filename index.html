@@ -10,8 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="w1" class="dispnone">
+        <div id="wygrana" class="dispnone">
+            <p id="p1">Wygrał(a) kandydat(ka) <p id="osoba"></p></p>
+            <img src="" alt="" id="zdjwygrany">
+            <button onclick="usun()" id="kolejneglosowanie">Głosuj ponownie</button>
+        </div>
+    </div>
     <div id="top">
         <h1>Wybierz swojego kandydata</h1>
+        <h2>Po uzyskaniu 20 głosów kandydat wygrywa</h2>
+        <h3>Głos można złożyć poprzez kliknięcie na wybranego kandydata</h3>
     </div>
     <div id="main">
         <div id="m1">
@@ -41,6 +50,7 @@
             </div>
         </div>
     </div>
+
     <script src="./script.js" defer></script>
 </body>
 </html>
