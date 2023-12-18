@@ -39,11 +39,6 @@ body {
     color: white;
     text-transform: uppercase;
 }
-.column:hover {
-    border-radius: 5px;
-    transform: scale(1.05);
-    transition: 0.5s linear;
-}
 #wykres {
     width: 100%;
     height: 100%;
