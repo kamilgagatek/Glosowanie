@@ -3,10 +3,10 @@
     var wynik3=0;
     var wynik4=0;
     var wynikirazem=0;
-    var osoba1="Jan Kowalski";
+    var osoba1="Janusz Kowal";
     var osoba2="Marek Ptak";
-    var osoba3="Kazimierz Baran";
-    var osoba4="Agnieszka Hebda";
+    var osoba3="Piotr Baran";
+    var osoba4="Anna Hebda";
     var slupek1=document.getElementById("slupek1");
     var slupek2=document.getElementById("slupek2");
     var slupek3=document.getElementById("slupek3");
@@ -24,7 +24,6 @@
     var w1=document.getElementById("w1");
     var wygrana=document.getElementById("wygrana");
 
-console.log(osoba1);
 function kandydat1() {
     wynik1++;
     wynikirazem++; 
@@ -32,10 +31,10 @@ function kandydat1() {
     wysokosc2=Math.round((wynik2/wynikirazem)*100,1);
     wysokosc3=Math.round((wynik3/wynikirazem)*100,1);
     wysokosc4=Math.round((wynik4/wynikirazem)*100,1);
-    slupek1.style.height=wysokosc1 + '%';
-    slupek2.style.height=wysokosc2 + '%';
-    slupek3.style.height=wysokosc3 + '%';
-    slupek4.style.height=wysokosc4 + '%';
+    slupek1.style.height=(wysokosc1 - 1) + '%';
+    slupek2.style.height=(wysokosc2 - 1) + '%';
+    slupek3.style.height=(wysokosc3 - 1) + '%';
+    slupek4.style.height=(wysokosc4 - 1) + '%';
     procwysokosci1.innerHTML=wysokosc1 + "%" + " (" + wynik1 + ")";
     procwysokosci2.innerHTML=wysokosc2 + "%" + " (" + wynik2 + ")";
     procwysokosci3.innerHTML=wysokosc3 + "%" + " (" + wynik3 + ")";
@@ -54,10 +53,10 @@ function kandydat2() {
     wysokosc2=Math.round((wynik2/wynikirazem)*100,1);
     wysokosc3=Math.round((wynik3/wynikirazem)*100,1);
     wysokosc4=Math.round((wynik4/wynikirazem)*100,1);
-    slupek1.style.height=wysokosc1 + '%';
-    slupek2.style.height=wysokosc2 + '%';
-    slupek3.style.height=wysokosc3 + '%';
-    slupek4.style.height=wysokosc4 + '%';
+    slupek1.style.height=(wysokosc1 - 1) + '%';
+    slupek2.style.height=(wysokosc2 - 1) + '%';
+    slupek3.style.height=(wysokosc3 - 1) + '%';
+    slupek4.style.height=(wysokosc4 - 1) + '%';
     procwysokosci1.innerHTML=wysokosc1 + "%" + " (" + wynik1 + ")";
     procwysokosci2.innerHTML=wysokosc2 + "%" + " (" + wynik2 + ")";
     procwysokosci3.innerHTML=wysokosc3 + "%" + " (" + wynik3 + ")";
@@ -76,10 +75,10 @@ function kandydat3() {
     wysokosc2=Math.round((wynik2/wynikirazem)*100,1);
     wysokosc3=Math.round((wynik3/wynikirazem)*100,1);
     wysokosc4=Math.round((wynik4/wynikirazem)*100,1);
-    slupek1.style.height=wysokosc1 + '%';
-    slupek2.style.height=wysokosc2 + '%';
-    slupek3.style.height=wysokosc3 + '%';
-    slupek4.style.height=wysokosc4 + '%';
+    slupek1.style.height=(wysokosc1 - 1) + '%';
+    slupek2.style.height=(wysokosc2 - 1) + '%';
+    slupek3.style.height=(wysokosc3 - 1) + '%';
+    slupek4.style.height=(wysokosc4 - 1) + '%';
     procwysokosci1.innerHTML=wysokosc1 + "%" + " (" + wynik1 + ")";
     procwysokosci2.innerHTML=wysokosc2 + "%" + " (" + wynik2 + ")";
     procwysokosci3.innerHTML=wysokosc3 + "%" + " (" + wynik3 + ")";
@@ -98,10 +97,10 @@ function kandydat4() {
     wysokosc2=Math.round((wynik2/wynikirazem)*100,1);
     wysokosc3=Math.round((wynik3/wynikirazem)*100,1);
     wysokosc4=Math.round((wynik4/wynikirazem)*100,1);
-    slupek1.style.height=wysokosc1 + '%';
-    slupek2.style.height=wysokosc2 + '%';
-    slupek3.style.height=wysokosc3 + '%';
-    slupek4.style.height=wysokosc4 + '%';
+    slupek1.style.height=(wysokosc1 - 1) + '%';
+    slupek2.style.height=(wysokosc2 - 1) + '%';
+    slupek3.style.height=(wysokosc3 - 1) + '%';
+    slupek4.style.height=(wysokosc4 - 1) + '%';
     procwysokosci1.innerHTML=wysokosc1 + "%" + " (" + wynik1 + ")";
     procwysokosci2.innerHTML=wysokosc2 + "%" + " (" + wynik2 + ")";
     procwysokosci3.innerHTML=wysokosc3 + "%" + " (" + wynik3 + ")";
